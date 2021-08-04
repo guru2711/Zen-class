@@ -1,0 +1,9 @@
+class Person {
+  constructor(name, occupation, country) {
+    this.name = name;
+    this.occupation = occupation;
+    this.country = country;
+  }
+}
+let a = new Person("Geralt", "Monster Hunter", "Blaviken");
+console.log(a);

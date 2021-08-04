@@ -1,0 +1,6 @@
+let me = {
+name:'Guru Prakash',
+age: 24,
+Education_Qualification : "B.E.Mechatronics",
+Achievement : "School pupil leader" & "District Football Team Captain"
+}

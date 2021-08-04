@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK</title>
+  </head>
+
+  <body>
+    <h3>Contact Form</h3>
+    <div class="container">
+      <form action="">
+        <label for="fname">First Name</label>
+        <input type="text" name="firstname" placeholder="firstname " />
+        <label for="lname">Last Name</label>
+        <input type="text" name="lastname" placeholder="lastname" />
+        <label for="country">country</label>
+        <select name="country" id="country">
+          <option value="India"></option>
+          <option value="USA"></option>
+          <option value="JAPAN"></option>
+          <option value="south korea"></option>
+          <option value="England"></option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

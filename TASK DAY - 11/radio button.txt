@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK</title>
+  </head>
+
+  <body>
+    <h2>href link</h2>
+    <a href="https://www.google.com/">click me to get into google</a><br />
+    <input type="radio" name="Salaried" />
+    <label for="Salaried">Salaried</label><br />
+    <input type="radio" name="own business" />
+    <label for="own business">own business</label>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

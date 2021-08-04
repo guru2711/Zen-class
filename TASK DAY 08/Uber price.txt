@@ -1,0 +1,28 @@
+class Uber {
+  constructor() {
+    prices: [
+      {
+        local_display_name: "ubersmall",
+        distance: 6.17,
+        display_name: "ubersmall",
+        duration: 1080,
+        estimate: "€13-14",
+        currency_code: "EUR",
+      },
+      {
+        local_display_name: "uberX",
+        distance: 6.25,
+        display_name: "uberX",
+        duration: 1080,
+        estimate: "$13-17",
+        currency_code: "USD",
+      },
+    ];
+  }
+}
+class Calulation extends Uber {
+  super() {
+    this.prices;
+  }
+}
+

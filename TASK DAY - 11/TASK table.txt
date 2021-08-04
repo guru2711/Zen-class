@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TASK</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tr>
+        <th>State of Health</th>
+        <th></th>
+        <th class="fasting">Fasting Value</th>
+        <th></th>
+        <th>After Eating</th>
+      </tr>
+      <tr>
+        <td></td>
+
+        <td>Minimum</td>
+        <td>Maximum</td>
+        <td></td>
+        <td>2 hours after Eating</td>
+      </tr>
+      <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td></td>
+        <td>Less than 140</td>
+      </tr>
+      <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td></td>
+        <td>140 to 200</td>
+      </tr>
+      <tr>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td></td>
+        <td>More than 200</td>
+      </tr>
+    </table>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

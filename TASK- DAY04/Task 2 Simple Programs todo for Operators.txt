@@ -1,0 +1,57 @@
+// Square of a number
+var a = 2
+console.log(Math.pow(2,2))
+
+// Swapping 2 numbers
+var a = 5;
+var b =10;
+temp = a;
+a = b;
+b = temp;
+
+// Addition of 3 numbers
+var add = 3 + 4 + 5;
+
+// Celsius to Fahrenheit conversion
+var c = 15
+var celsius = c
+var c_to_f = (c * 9/5) + 32 
+
+// Meter to miles
+var meter = 1
+var meter_to_miles = 1/1609
+
+// Pounds to kg
+var pounds = 1
+var pounds_to_kg = 1/2.205
+
+// Calculate Batting Average in cricket
+var scored_runs = 1000
+var times_out = 10
+var batting_average_cricket = scored_runs / times_out
+
+// Calculate five test scores and print their average
+var test_1 = 77
+var test_2 = 50
+var test_3 = 25
+var test_4 = 37
+var test_5 = 127
+var test_score = test_5 + test_4 + test_3 + test_2 + test_1
+var batting_average_cricket = test_score/ times_out
+console.log(batting_average_cricket)
+
+// Power of any number x ^ y.
+var x = 2
+var y = 2
+var power = Math.pow(x, y)
+
+// Calculate Simple Interest
+var P	=	10000.00
+var r	=	3.875
+var t	=	5
+var simple_interest = P(1 + r*t)
+
+// Calculate area of an equilateral triangle
+var a = 2
+var area_of_an_equilateral_triangle = (Math.sqrt(3)/4) * Math.pow(a, 2)
+

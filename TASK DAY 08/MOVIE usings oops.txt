@@ -1,0 +1,13 @@
+class Movie {
+  constructor(title, studio, rating = "PG") {
+    this.title = title;
+    this.studio = studio;
+    this.rating = rating;
+  }
+  // Method
+  getPG() {
+    return this.title + " , " + this.studio + " , " + this.rating;
+  }
+}
+const a = new Movie("casino Royale", "eon Production", 13);
+console.log(a.getPG());
