@@ -1,0 +1,16 @@
+
+
+HTTP => Hypertext Transport Protocol
+ 	Language of the Web
+ 	protocol used for communication between web browsers and web servers
+	TCP port 80 (443 secure)
+	RFC 2616 (ver 1.1)
+
+EVOLUTION OF HTTP => HTTP/0.9 – The one-line protocol
+		GET /mypage.html
+		HTTP/1.0 – Building extensibility
+		HTTP headers
+		HTTP/1.1 – The standardized protocol
+		More than 15 years of extensions
+		HTTP/2 – A protocol for greater performance
+		HTTP/3 - HTTP over QUIC

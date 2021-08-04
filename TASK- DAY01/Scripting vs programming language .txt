@@ -1,0 +1,18 @@
+
+	Scripting languages are programming languages that don't require an explicit compilation step.
+
+For example, in the normal case, you have to compile a C program before you can run it. But in the normal case, you don't have to compile a JavaScript program before you run it. So JavaScript is sometimes called a "scripting" language.
+
+	Some examples of "scripting" languages (e.g., languages that are traditionally used without an explicit compilation step):
+
+Lua
+JavaScript
+VBScript and VBA
+Perl
+And a small smattering of ones traditionally used with an explicit compilation step:
+
+C
+C++
+D
+Java (but note that Java is compiled to bytecode, which is then interpreted and/or recompiled at runtime)
+Pascal
