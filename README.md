@@ -1,1 +1,1 @@
-# Zen-class- Task from DAY 1
+# Zen-class- Tasks from DAY 1
