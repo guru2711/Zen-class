@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TASK</title>
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div id="container">
+    <form action=""><h3><em>Contact us</em></h3>
+    <label for="fname">First name</label>
+    <input type="text" id="fname" name="firstname" placeholder="name...">
+    <br>
+    <br>
 
-  <body>
-    <h3>Contact Form</h3>
-    <div class="container">
-      <form action="">
-        <label for="fname">First Name</label>
-        <input type="text" name="firstname" placeholder="firstname " />
-        <label for="lname">Last Name</label>
-        <input type="text" name="lastname" placeholder="lastname" />
-        <label for="country">country</label>
-        <select name="country" id="country">
-          <option value="India"></option>
-          <option value="USA"></option>
-          <option value="JAPAN"></option>
-          <option value="south korea"></option>
-          <option value="England"></option>
-        </select>
-        <label for="subject">Subject</label>
-        <textarea
-          id="subject"
-          name="subject"
-          placeholder="Write something.."
-          style="height: 200px"
-        ></textarea>
+    <label for="fname">Last name</label>
+    <input type="text" id="lname" name="lastname" placeholder="name...">
+    <br>
+    <br>
+    <input type="radio" name="Salaried" />
+    <label for="Salaried">Salaried</label><br />
+    <input type="radio" name="own business" />
+    <label for="own business">own business</label><br/>
+<br>
+    <label for="region">Region</label>
+    <select name="state" id="state">
+        <option value="TamilNadu">TamilNadu</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Andhra pradesh">Andhra pradesh</option>
+        <option value="Kerla">Kerla</option>
+    </select>
+    <br>
+    <br>
+    <label for="subject"><em>Subject</em> </label>
+    <textarea name="subject" placeholder="Write something..." style="height: 200px"></textarea>
+<br>
+<input type="submit" value="Submit">    
+<br>
+</form>
+  </div>
+  <br/>
+  <br/>
+  <br/>
+  <h3 style="text-align: center;"><em>"HTML & CSS is awesome"</em></h3>
+  <br/>
+ 
 
-        <input type="submit" value="Submit" />
-      </form>
-    </div>
-    <script src="./js/script.js"></script>
-  </body>
+</body>
 </html>
