@@ -251,12 +251,14 @@ if (value === 4) {
 -------------------------------------------------------------------------------------
 Fix the code to welcome the Employee
 fix.html
+
 <!DOCTYPE html>
 <html>
 <body>
  <script src=”script.js”></script>
 </body>
 </html>
+
 script.js
 let login = 'Employee';
 let message = (login == 'Employee') ? :
